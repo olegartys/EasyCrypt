@@ -1,0 +1,9 @@
+#!/bin/bash
+
+su
+echo "Copying crypt.sh to /usr/bin/crypt.sh ...";
+cp ./crypt.sh /usr/bin/crypt.sh
+chmod +x /usr/bin/crypt.sh
+exit
+
+exit 0
